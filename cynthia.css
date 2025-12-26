@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"General sans";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    width: 100%;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 2rem;
+    
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 2.3rem;
+    font-size:1.1rem ;
+}
+#nav h4{
+    color: white;
+    padding-right: 2.3rem;
+}
+
+#bodytext1{
+    
+    padding-top: 2.3rem;
+    padding-left: 2.8rem;
+}
+#bodytext1 p{
+    color: rgb(169, 168, 168);
+    font-size: 8.5rem;
+    margin-bottom: -4rem;
+    
+
+}
+
+#bodytext2 p{
+    color: rgb(169, 168, 168);
+    font-size: 8.5rem;
+   
+    padding-left: 11rem;
+    margin-bottom: -1rem;
+}
+
+#bodytext3 p{
+    color: white;
+    
+    
+    padding-left: 43rem;
+}
+#bodytext4 p{
+    color: white;
+    font-size: 1rem;
+    padding-top: 8rem;
+    display: flex;
+    justify-content: right;
+    padding-right: 3rem;
+}
+
+#bodytext5 p{
+    color: white;
+    font-size: 1rem;
+    
+    display: flex;
+    justify-content: right;
+    padding-right: 3rem;
+}
+#HEROFOOTER{
+    display: flex;
+    justify-content:space-between;
+    align-items:first baseline;
+    margin-top: 2.3REM;
+    margin-left:2.8rem;
+
+}
+#HEROFOOTER A{
+    text-decoration: none;
+    color: white;
+    margin-right: 6rem;
+    padding-left: -3rem;
+
+}
+
+#footericon{
+    margin-right: 3rem;
+    align-items: center;
+}
+
+#footericon i{
+    font-size: 1.5rem;
+    background-color:rgb(169, 168, 168) ;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+
+    
+}
